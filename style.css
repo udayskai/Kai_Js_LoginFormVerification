@@ -1,0 +1,15 @@
+#OnSubmit{
+      background-color: rgb(210, 223, 223);
+      border: none;
+      
+}
+
+#OnSubmit:hover,#OnCancel:hover{
+    background-color: rgb(126, 211, 41);
+}
+
+#OnSubmit,#email,#password ,#OnCancel{
+           height: 50px;
+           width: 220px;
+           margin-left: 650px;
+           }
