@@ -1,8 +1,7 @@
 /// <reference path='../Kai_Extra/jquery-3.4.1.min.js'/>
 
 
-// 1st Function  On Cancel
- function  OnCancel() {
+  function  OnCancel() {
    $("#email").val("");
    $("#password").val("");
    
