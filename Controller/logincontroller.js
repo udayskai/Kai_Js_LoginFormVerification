@@ -1,4 +1,4 @@
-/// <reference path='../Kai_Extra/jquery-3.4.1.min.js'/>
+///<reference path= "../Kai_Js_LoginVarification/lib/jquery-3.4.1.min.js">
 
 
   function  OnCancel() {
@@ -10,8 +10,11 @@
 }
 
 
+
 // Get login data 
 function getLoginData(){
+  let email=$("#email").val();
+  let password=$("#password").val();
   
 }
 
