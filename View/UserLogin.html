@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../Css/style.css">
     
     <title>LoginForm</title>
     
@@ -12,12 +12,15 @@
 <body>
      <input id="email" type ="email" placeholder="Email"> <br>
      <input id="password" type="password" placeholder="Password"> <br>
-     <button id="OnSubmit"  >Submit </button> <br>
-     <button id="OnCancel" onclick="OnCancel()">Cancel </button>
+     <button id="OnSubmit" onclick="" >Submit </button> <br>
+     <button id="OnCancel" onclick="onCancelEvent()">Cancel </button>
 
     
+
+
 </body>
-<script src="../Kai_Js_LoginVarification/jquery-3.4.1.min.js"></script>
-<script src="./login.js"></script>
-<script src="./login_Varification.js"></script>
+<script src="../lib/jquery-3.4.1.min.js"></script>
+<script src="../Model/loginModel.js"></script>
+<script src="../Controller/logincontroller.js"></script>
+
 </html>
