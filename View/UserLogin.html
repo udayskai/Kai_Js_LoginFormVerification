@@ -4,21 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Css/style.css">
-    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+
     <title>LoginForm</title>
     
     </style>
 </head>
 <body>
-     <input id="email" type ="email" placeholder="Email"> <br>
-     <input id="password" type="password" placeholder="Password"> <br>
-     <button id="OnSubmit" onclick="" >Submit </button> <br>
-     <button id="OnCancel" onclick="onCancelEvent()">Cancel </button>
 
+    <div class="container">
+
+           <div id="userInput">
+                    <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+        
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                   
+                    <input class="email" type="email" class="form-control" placeholder="Enter Email">
+                    <input class="password" type="password" class="form-control" placeholder="Password" >
+                    </div>
+                    </div >
+          </div>
+
+     <!-- <input  id="email" type ="email" placeholder="Email"> <br> -->
+     <!-- <input id="password" type="password" placeholder="Password"> <br> -->
+   
+     <button id="OnSubmit"  type="button" class="btn btn-success" onclick="onSubmitEvent()">Submit </button> 
+  
+     <button id="OnCancel" type="button" class="btn btn-danger"  onclick="onCancelEvent()">Cancel </button>  
     
 
 
 </body>
+
 <script src="../lib/jquery-3.4.1.min.js"></script>
 <script src="../Model/loginModel.js"></script>
 <script src="../Controller/logincontroller.js"></script>
